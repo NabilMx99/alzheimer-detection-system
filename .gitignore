@@ -1,0 +1,110 @@
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.env.local
+.env.*.local
+.env/
+.venv/
+env/
+venv/
+ENV/
+
+# Packaging and build files
+build/
+dist/
+develop-eggs/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg
+*.egg-info/
+.eggs/
+.installed.cfg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# TensorBoard logs
+logs/
+tb_logs/
+runs/
+
+# Logs
+*.log
+
+# Test / Coverage
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+
+# PyInstaller
+*.manifest
+*.spec
+
+# PyBuilder
+target/
+maildir/
+
+# Jupyter notebook
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+*.nbconvert.ipynb
+
+# Models
+*.h5
+*.hdf5
+*.onnx
+*.pth
+*.pt
+*.bin
+*.joblib
+*.pkl
+models/
+
+# Datasets
+data/
+data/raw/
+data/processed/
+datasets/mri/
+!datasets/csv/
+
+# Image files
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.tiff
+
+# Large files
+*.npy
+*.npz
+*.parquet
+
+# Temp files
+temp/
+tmp/
+output/
+results/
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
